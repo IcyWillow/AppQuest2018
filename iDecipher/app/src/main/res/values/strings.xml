@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">iDecipher</string>
+    <string name="ok" />
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="foto_aufnehmen">Foto aufnehmen</string>
+    <string name="w_hlen_sie_den_farbkanal">Wählen Sie den Farbkanal:</string>
+</resources>

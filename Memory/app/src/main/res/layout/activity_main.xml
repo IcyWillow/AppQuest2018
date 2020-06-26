@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnNewTwins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:text="Add New Row" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cdvTwins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <RelativeLayout
+                android:id="@+id/rl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:id="@+id/picture1"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/placeholder" />
+
+                <TextView
+                    android:id="@+id/word1"
+                    android:layout_width="160dp"
+                    android:layout_height="25dp"
+
+                    android:layout_below="@+id/picture1"
+                    android:gravity="center"
+                    android:background="#0EABA9"
+                    android:text="" />
+
+                <ImageView
+                    android:id="@+id/picture2"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_alignParentRight="true"
+                    app:srcCompat="@drawable/placeholder" />
+
+                <TextView
+                    android:id="@+id/word2"
+                    android:layout_width="160dp"
+                    android:layout_height="25dp"
+                    android:gravity="center"
+                    android:background="#0EABA9"
+                    android:layout_alignParentRight="true"
+                    android:text=""
+                    android:layout_below="@+id/picture2"/>
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+</LinearLayout>
+
+
+</ScrollView>

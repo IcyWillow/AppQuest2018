@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="100dp" android:layout_width="100dp">
+    <item android:id="@+id/picture"
+        android:title="Bild neu aufnehmen" />
+    <item android:id="@+id/pick"
+        android:title="Bild zoomen" />
+    <item android:id="@+id/copy"
+        android:title="Copy" />
+    <item android:id="@+id/paste"
+        android:title="Paste" />
+    <item android:id="@+id/remove"
+        android:title="Reihe löschen" />
+</menu>

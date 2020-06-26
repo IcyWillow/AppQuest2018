@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">iCoinCollector</string>
+    <string name="seeufer">Seeufer</string>
+    <string name="inseli">Inseli</string>
+    <string name="mensa">Mensa</string>
+    <string name="velost_nder">Veloständer</string>
+    <string name="forschungsgeb_ude">Forschungsgebäude</string>
+</resources>
